@@ -1,0 +1,6 @@
+services:
+  app1:
+    image: 'autoservice1.0'
+    ports:
+      - "8080:8080"
+    build: ./
